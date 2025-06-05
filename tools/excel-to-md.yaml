@@ -1,0 +1,30 @@
+identity:
+  name: excel-to-md
+  author: zxp
+  label:
+    en_US: excel-to-md
+    zh_Hans: excel-to-md
+    pt_BR: excel-to-md
+description:
+  human:
+    en_US: excel file convertion markdown
+    zh_Hans: excel file convertion markdown
+    pt_BR: excel file convertion markdown
+  llm: excel file convertion markdown
+parameters:
+  - name: file_url
+    type: string
+    required: true
+    label:
+      en_US: File URL string
+      zh_Hans: 文件地址
+      pt_BR: File URL string
+    human_description:
+      en_US: excel file convertion markdown
+      zh_Hans: excel 转为 markdown
+      pt_BR: excel file convertion markdown
+    llm_description: excel file convertion markdown
+    form: llm
+extra:
+  python:
+    source: tools/excel-to-md.py

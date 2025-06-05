@@ -1,0 +1,17 @@
+identity:
+  author: zxp
+  name: excel-to-md
+  label:
+    en_US: excel-to-md
+    zh_Hans: excel-to-md
+    pt_BR: excel-to-md
+  description:
+    en_US: excel file convertion markdown
+    zh_Hans: excel file convertion markdown
+    pt_BR: excel file convertion markdown
+  icon: icon.svg
+tools:
+  - tools/excel-to-md.yaml
+extra:
+  python:
+    source: provider/excel-to-md.py
